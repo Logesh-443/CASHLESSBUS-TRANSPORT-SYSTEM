@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  font-size: smaller;
+  max-width: 20px;
+  text-align: left;
+  display:block;
+}
+body{
+  background-image: url('./img/BUS.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 100%;
+  margin:0;
+  padding: 0;
+}
+.btn-bus{
+padding-left: 3%;
+padding-right: 3%;
+background-color: transparent;
+border-color: transparent;
+color:seagreen;
+font-weight: bolder;
+font-size: large;
+}
+.btn-bus-clr{
+padding-left: 3%;
+padding-right: 3%;
+background-color: transparent;
+border-color: transparent;
+color:crimson;
+font-weight: bolder;
+font-size: large;
+}
+.bus-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+margin-top: 3%;
+}
+
+.entry-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+margin-top: 3%;
+margin-left:5%;
+margin-right: 5%;
+}
+.row-bus{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+.table-bus{
+  margin-top: 2%;
+}
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color:lightpink;
+  color: white;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color:antiquewhite;
+  color: black;
+}
+.lnk-head {
+  color: aliceblue;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+.lnk-btn{
+  color: #8a5a4a;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-dark-cl {
+  background-color: #8a5a4a;
+  color: cornsilk;
+  height: 3%;
+}
+.lnk {
+  text-decoration: none;
+}
+.view-list{
+  padding-top: 5%;
+}
